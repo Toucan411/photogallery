@@ -1,5 +1,6 @@
 header {
     color:#007d7b;
+    text-align: left;
 }
 
 body {
@@ -10,6 +11,41 @@ body {
     margin: auto;
 }
 
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    color:#FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #007d7b;
+}
+
+.about h2 {
+    text-align: right;
+    font-size: 40px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+.about p {
+    text-align: right;
+}
+
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    width: 50px;
+    height: 30px;
+    background-color: #007d7b;
+}
+
+
 main {
     background-color: #FFFFFF;
 }
@@ -17,6 +53,7 @@ main {
 form {
     color:#FFFFFF;
     text-align: center;
+    outline: hidden;
 }
 
  
