@@ -97,49 +97,12 @@ nav a:hover {
 }
 
 
-input[type="submit"]:hover {
-    background-color: #FF8284;
-    color: #000000;
-
-}
-
 main {
     background-color: #FFFFFF;
     height: 1815px;
     overflow: hidden;
 }
 
-
-.form {
-    position: relative;
-    bottom: 20px;
-    color:#FFFFFF; 
-    text-align: center;
-}
-
-fieldset {
-    border: none;
-}
-
-
-label {
-    font-size: 16px;
-    position: relative;
-    bottom: 25px;
-    right: 405px;
-}
-
- label[for="message"] {
-    position:relative;
-    right: 390px;
-}
- 
-input {
-    position: relative;
-    bottom: 25px;
-    width: 850px;
-    height: 35px;
-}
 
 #tk {
     position: relative;
@@ -343,6 +306,37 @@ input {
     bottom: 30px;
 }
 
+.form {
+    position: relative;
+    bottom: 20px;
+    color:#FFFFFF; 
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+}
+
+
+label {
+    font-size: 16px;
+    position: relative;
+    bottom: 25px;
+    right: 405px;
+}
+
+ label[for="message"] {
+    position:relative;
+    right: 390px;
+}
+ 
+input {
+    position: relative;
+    bottom: 25px;
+    width: 850px;
+    height: 35px;
+}
+
 
 input[type="submit"] {
     position: relative;
@@ -353,6 +347,11 @@ input[type="submit"] {
     border-radius: 15px;
     color:#FFFFFF;
     font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #FF8284;
+    color: #000000;
 }
 
 ::placeholder {
