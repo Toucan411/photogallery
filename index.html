@@ -15,88 +15,90 @@
         <ul>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#gallery">GALLERY</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-            <li><a href="#top">^ TOP</a></li>
+            <li><a href="#cntc">CONTACT</a></li>
+            <li><a href="#top">^<br> TOP</a></li>
         </ul>
     </nav>
     <main>
         <section class="about">
             <h2>ABOUT</h2>
             <img id="tk" src="Photos/TK.png" alt="Picture of photographer TK">
-            <p>Hello!</p>
-            <p>I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it's taken me all over the world.</p>
+            <p>Hello!<br>
+            I'm TK and I'm a photographer.<br>
+            I love looking at life through the lens of my<br>
+            camera. Landscape photography is my<br>
+            speciality and it's taken me all over the world.</p>
         </section>
         <section class="gallery">
-            <h2>Gallery</h2>
-            <p>Here are some highlights of my work.</p>
-            <p>The locations and year are in the caption</p>
+            <h2>GALLERY</h2>
+            <p>Here are some highlights of my work. The locations and year are in the caption.</p>
 
             <figure id="chile"><img src="Photos/Chile.png" alt="Picture of Chile in 2001">
-            <figcaption>Chile, 2001</figcaption>
+            <figcaption class="c">CHILE, 2001</figcaption>
             </figure>
 
-            <figure><img id="guatemala" src="Photos/Guatemala.png" alt="Picture of Guatemala in 1997">
-            <figcaption>Guatemala, 1997</figcaption>
+            <figure id="guatemala"><img src="Photos/Guatemala.png" alt="Picture of Guatemala in 1997">
+            <figcaption class="d">GUATEMALA, 1997</figcaption>
             </figure>
 
-            <figure><img id="hawaii" src="Photos/Hawaii.png" alt="Picture of Hawaii in 2010">
-            <figcaption>Hawaii, 2010</figcaption>
+            <figure id="hawaii"><img src="Photos/Hawaii.png" alt="Picture of Hawaii in 2010">
+            <figcaption class="e">HAWAII, 2010</figcaption>
             </figure>
 
-            <figure><img id="iran" src="Photos/Iran.png" alt="Picture of Iran in 1999">
-            <figcaption>Iran, 1999</figcaption>
+            <figure id="iran"><img src="Photos/Iran.png" alt="Picture of Iran in 1999">
+            <figcaption class="f">IRAN, 1999</figcaption>
             </figure>
 
-            <figure><img id="ireland" src="Photos/Ireland.png" alt="Picture of Ireland in 2012">
-            <figcaption>Ireland, 2012</figcaption>
+            <figure id="ireland"><img src="Photos/Ireland.png" alt="Picture of Ireland in 2012">
+            <figcaption class="g">IRELAND, 2012</figcaption>
             </figure>
 
-            <figure><img id="italy" src="Photos/Italy.png" alt="Picture of Italy in 2015">
-            <figcaption>Italy, 2015</figcaption>
+            <figure id="italy"><img src="Photos/Italy.png" alt="Picture of Italy in 2015">
+            <figcaption class="h">ITALY, 2015</figcaption>
             </figure>
 
-            <figure><img id="moab-desert" src="Photos/Moab-Desert.png" alt="Picture of Moab-Desert in 2020">
-            <figcaption>Moab Desert, 2020</figcaption>
+            <figure id="moab-desert"><img src="Photos/Moab-Desert.png" alt="Picture of Moab-Desert in 2020">
+            <figcaption class="i">MOAB DESERT, 2020</figcaption>
             </figure>
 
-            <figure><img id="rocky-mountains" src="Photos/Rocky-Mountains.png" alt="Picture of Rocky Mountains in 2009">
-            <figcaption>Rocky Mountains, 2009</figcaption>
+            <figure id="rocky-mountains"><img src="Photos/Rocky-Mountains.png" alt="Picture of Rocky Mountains in 2009">
+            <figcaption class="j">ROCKY MOUNTAINS, 2009</figcaption>
             </figure>
 
-            <figure><img id="switzerland" src="Photos/Switzerland.png" alt="Picture of Switzerland in 2014">
-            <figcaption>Switzerland, 2014</figcaption>
+            <figure id="switzerland"><img src="Photos/Switzerland.png" alt="Picture of Switzerland in 2014">
+            <figcaption class="k">SWITZERLAND, 2014</figcaption>
             </figure>
 
-            <figure><img id="uk" src="Photos/UK.png" alt="Picture of UK in 2005">
-            <figcaption>UK, 2005</figcaption>
+            <figure id="uk"><img src="Photos/UK.png" alt="Picture of UK in 2005">
+            <figcaption class="l">UK, 2005</figcaption>
             </figure>
 
-            <figure><img id="usa" src="Photos/USA.png" alt="Picture of USA in 2021">
-            <figcaption>USA, 2021</figcaption>
+            <figure id="usa"><img src="Photos/USA.png" alt="Picture of USA in 2021">
+            <figcaption class="m">USA, 2021</figcaption>
             </figure>
 
-            <figure><img id="wyoming" src="Photos/Wyoming.png" alt="Picture of Wyoming in 2021">
-            <figcaption>Wyoming, 2021</figcaption>
+            <figure id="wyoming"><img src="Photos/Wyoming.png" alt="Picture of Wyoming in 2021">
+            <figcaption class="n">WYOMING, 2021</figcaption>
             </figure>
-        </section>
-        <section class="cntc">
-            <h2>CONTACT</h2>
-            <p>Please fill out this form and I'll connect with you soon.</p>
         </section>
     </main>
-    <form id="cntcform">
-        <fieldset>
-            <label for="name">NAME</label><br>
-            <input type="text" name="name" placeholder="YOUR FULL NAME"><br>
-            <label for="email">EMAIL</label><br>
-            <input type="email" name="email" placeholder="ENTER YOUR EMAIL ADDRESS"><br>
-            <label for="message">MESSAGE</label><br>
-            <input type="text" name="message" placeholder="WHAT CAN I HELP YOU WITH?"><br>
-            <input type="submit">
-        </fieldset>
-    </form>
+    <aside id="cntc">
+        <h2>CONTACT</h2>
+        <p>Please fill out this form and I'll connect with you soon.</p>
+        <form class="form">
+            <fieldset>
+                <label for="name">NAME</label><br>
+                <input type="text" id="name" name="name" placeholder="YOUR FULL NAME"><br>
+                <label for="email">EMAIL</label><br>
+                <input type="email" id="email" name="email" placeholder="ENTER YOUR EMAIL ADDRESS"><br>
+                <label for="message">MESSAGE</label><br>
+                <input type="text" id="message" name="message" placeholder="WHAT CAN I HELP YOU WITH?"><br>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </aside>
     <footer>
-        Copyright 2021 TK Photography
+        COPYRIGHT 2021 TK PHOTOGRAPHY
     </footer>
 </body>
 </html>

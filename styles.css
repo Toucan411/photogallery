@@ -1,19 +1,22 @@
 header {
+    position: relative;
+    left: 40px;
     color:#007d7b;
     text-align: left;
 }
 
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Arial;
     background-color: #000000;
     text-align: center;
-    max-width: 1310px;
-    margin: auto;
+    width: 1310px;
+    margin: 0 auto;
 }
 
 nav li {
     display: inline-flex;
 }
+
 
 nav a {
     color:#FFFFFF;
@@ -26,14 +29,56 @@ nav a:hover {
 }
 
 .about h2 {
+    position: relative;
+    right: 25px;
+    bottom: 25px;
+    color:#000000;
     text-align: right;
     font-size: 40px;
-    padding-right: 25px;
-    padding-top: 10px;
 }
 
 .about p {
+    position: relative;
+    right: 25px;
+    bottom: 255px;
     text-align: right;
+    font-size: 20px;
+}
+
+.gallery h2 {
+    color:#000000;
+    position: relative;
+    left: 25px;
+    bottom: 260px;
+    text-align: left;
+    font-size: 40px;
+}
+
+.gallery p {
+    color:#000000;
+    position: relative;
+    left: 25px;
+    bottom: 285px;
+    text-align: left;
+    font-size: 20px;
+}
+
+[href="#about"] {
+    position: relative;
+    left: 155px;
+    bottom: 45px;
+}
+
+[href="#gallery"] {
+    position: relative;
+    left: 255px;
+    bottom: 45px;
+}
+
+[href="#cntc"] {
+    position: relative;
+    left: 355px;
+    bottom: 45px;
 }
 
 [href="#top"] {
@@ -43,49 +88,284 @@ nav a:hover {
     width: 50px;
     height: 30px;
     background-color: #007d7b;
+    font-size: small;
+}
+
+[href="#top"]:hover {
+    background-color: #FF8284;
+    color: #000000;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #FF8284;
+    color: #000000;
+
 }
 
 main {
     background-color: #FFFFFF;
+    height: 1815px;
+    overflow: hidden;
 }
 
 
-form {
-    color:#FFFFFF;
+.form {
+    position: relative;
+    bottom: 20px;
+    color:#FFFFFF; 
     text-align: center;
-    outline: hidden;
 }
 
+fieldset {
+    border: none;
+}
+
+
+label {
+    font-size: 16px;
+    position: relative;
+    bottom: 25px;
+    right: 405px;
+}
+
+ label[for="message"] {
+    position:relative;
+    right: 390px;
+}
  
 input {
-    width: 450px;
-    height: 20px;
+    position: relative;
+    bottom: 25px;
+    width: 850px;
+    height: 35px;
 }
 
+#tk {
+    position: relative;
+    bottom: 100px;
+    right: 217px;
+}
 
+#chile {
+    position: relative;
+    right: 27px;
+    bottom: 300px;
+    width: 420px;
+    height: 281px;
+}
 
-.cntc {
+#guatemala {
+    position: relative;
+    left: 405px;
+    bottom: 597px;
+    width: 420px;
+    height: 281px;
+}
+
+#hawaii {
+    position: relative;
+    left: 835px;
+    bottom: 895px;
+    width: 420px;
+    height: 281px;
+}
+
+#iran {
+    position: relative;
+    right: 27px;
+    bottom: 897px;
+    width: 420px;
+    height: 630px;
+}
+
+#ireland {
+    position: relative;
+    left: 405px;
+    bottom: 1544px;
+    width: 420px;
+    height: 630px;
+}
+
+#italy {
+    position: relative;
+    left: 835px;
+    bottom: 2190px;
+    width: 420px;
+    height: 630px;
+}
+
+#moab-desert {
+    position: relative;
+    right: 27px;
+    bottom: 2193px;
+    width: 420px;
+    height: 281px;
+}
+
+#rocky-mountains {
+    position: relative;
+    left: 405px;
+    bottom: 2490px;
+    width: 420px;
+    height: 281px;
+}
+
+#switzerland {
+    position: relative;
+    left: 835px;
+    bottom: 2787px;
+    width: 420px;
+    height: 281px;
+}
+
+#uk {
+    position: relative;
+    right: 27px;
+    bottom: 2790px;
+    width: 420px;
+    height: 281px;
+}
+
+#usa {
+    position: relative;
+    left: 405px;
+    bottom: 3087px;
+    width: 420px;
+    height: 281px;
+}
+
+#wyoming {
+    position: relative;
+    left: 835px;
+    bottom: 3384px;
+    width: 420px;
+    height: 281px;
+}
+
+.c {
+    position: relative;
+    right: 160px;
+    bottom: 280px;
+    font-size: 16px;
+}
+
+.d {
+    position: relative;
+    right: 130px;
+    bottom: 275px;
+    color:#FFFFFF;
+}
+
+.e {
+    position: relative;
+    left: 125px;
+    bottom: 25px;
+    color:#FFFFFF;
+}
+
+.f {
+    position: relative;
+    right: 165px;
+    bottom: 630px;
+}
+
+.g {
+    position: relative;
+    left: 115px;
+    bottom: 25px;
+    color:#FFFFFF;
+}
+
+.h {
+    position: relative;
+    right: 160px;
+    bottom: 25px;
+    color:#FFFFFF;
+}
+
+.i {
+    position: relative;
+    bottom: 25px;
+    left: 75px;
+    color:#FFFFFF;
+}
+
+.j {
+    position: relative;
+    right: 105px;
+    bottom: 280px;
+    font-size: 16px;
+}
+
+.k {
+    position: relative;
+    right: 120px;
+    bottom: 25px;
+}
+
+.l {
+    position: relative;
+    left: 155px;
+    bottom: 25px;
+    color:#FFFFFF;
+}
+
+.m {
+    position: relative;
+    right: 170px;
+    bottom: 280px;
+    color:#FFFFFF;
+}
+
+.n {
+    position: relative;
+    right: 145px;
+    bottom: 278px;
+    color: #FFFFFF;
+}
+
+#cntc {
+    position: relative;
+    top: 50x;
     color:#FFFFFF;
     background-color: #000000;
     text-align: center;
 }
 
+#cntc h2 {
+    position: relative;
+    bottom: 15px;
+}
+
+#cntc p {
+    position: relative;
+    bottom: 30px;
+}
+
 
 input[type="submit"] {
+    position: relative;
+    bottom: 15px;
     background-color: #007d7b;
     width: 250px;
-    height: 30px;
-    border-radius: 25px;
+    height: 40px;
+    border-radius: 15px;
     color:#FFFFFF;
+    font-size: 16px;
 }
 
 ::placeholder {
     color:#007d7b;
     font-weight: bold;
+    font-size: 16px;
 }
 
 footer {
+    position: relative;
+    bottom: 15px;
     color:#FFFFFF;
-    text-size-adjust: 16px;
+    font-size: 16px;
     text-align: center;
+    margin-bottom: -2500px;
 }
